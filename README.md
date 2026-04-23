@@ -26,6 +26,20 @@ python analyze_rail_staking.py
 
 Outputs are written to `output/`.
 
+## Charts
+
+### Stake In Daily
+
+![Stake in daily](output/stake_in_daily.png)
+
+### Pending Claim Daily
+
+![Pending claim daily](output/pending_claim_daily.png)
+
+### Claimable Daily
+
+![Claimable daily](output/claimable_daily.png)
+
 ## Notes
 
 - `Unlock` and `Claim` events do not emit amounts, so amounts are reconstructed from `Stake(account, stakeID, amount)`.
