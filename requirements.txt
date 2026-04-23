@@ -1,0 +1,4 @@
+eth-hash[pycryptodome]==0.8.0
+eth-utils==6.0.0
+matplotlib==3.10.3
+requests==2.32.3
