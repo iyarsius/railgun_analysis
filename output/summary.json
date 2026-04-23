@@ -1,0 +1,39 @@
+{
+  "rpc_url": "https://ethereum-rpc.publicnode.com",
+  "contract_address": "0xee6a649aa3766bd117e12c161726b693a1b2ee20",
+  "staking_token": "0xe76c6c83af64e4c60245d8c7de953df673a7a33d",
+  "decimals": 18,
+  "deploy_block": 12780995,
+  "latest_block": 24942361,
+  "latest_timestamp_utc": "2026-04-23T11:31:11Z",
+  "focus_window": {
+    "start": "2026-04-05T00:00:00Z",
+    "end": "2026-04-10T23:59:59Z"
+  },
+  "focus_counts": {
+    "unlocks": 0,
+    "claims": 6,
+    "stakes": 4
+  },
+  "focus_amounts_rail": {
+    "unlock_total": "0.000000000000000000",
+    "claim_total": "1674.779120528423927598",
+    "stake_total": "3907.374721316441342399",
+    "net_pending_change": "-1674.779120528423927598"
+  },
+  "current_totals_rail": {
+    "pending_claim": "1342134.389579299370770956",
+    "claimable_now": "1331758.146577229017687128"
+  },
+  "methodology": {
+    "unlock_and_claim_amounts": "Reconstructed from Stake(account, stakeID, amount); Unlock and Claim events do not emit amount.",
+    "missing_stake_logs_fallback": "If an Unlock/Claim referenced a stake without a corresponding Stake log in the fetched history, amount was backfilled from stakes(account, stakeID).amount.",
+    "missing_unlock_or_claim_logs_fallback": "Known stakes were reconciled against stakes(account, stakeID).locktime and claimedTime to backfill missing Unlock/Claim history when needed.",
+    "stake_id_scope": "Per-account index in stakes[account].",
+    "partial_claim": false,
+    "partial_unlock": false,
+    "unlock_cancel": false
+  },
+  "backfilled_stake_amount_count": 1,
+  "backfilled_history_operation_count": 16
+}
