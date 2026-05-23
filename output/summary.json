@@ -4,8 +4,8 @@
   "staking_token": "0xe76c6c83af64e4c60245d8c7de953df673a7a33d",
   "decimals": 18,
   "deploy_block": 12780995,
-  "latest_block": 24942361,
-  "latest_timestamp_utc": "2026-04-23T11:31:11Z",
+  "latest_block": 25160771,
+  "latest_timestamp_utc": "2026-05-23T21:50:23Z",
   "focus_window": {
     "start": "2026-04-05T00:00:00Z",
     "end": "2026-04-10T23:59:59Z"
@@ -22,8 +22,8 @@
     "net_pending_change": "-1674.779120528423927598"
   },
   "current_totals_rail": {
-    "pending_claim": "1342134.389579299370770956",
-    "claimable_now": "1331758.146577229017687128"
+    "pending_claim": "1352821.236028115014252952",
+    "claimable_now": "1342134.389579299370770956"
   },
   "methodology": {
     "unlock_and_claim_amounts": "Reconstructed from Stake(account, stakeID, amount); Unlock and Claim events do not emit amount.",
